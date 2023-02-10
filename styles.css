@@ -1,0 +1,167 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0; 
+    background-color: #e0dede;
+    color: #fff;
+    width: 100vw;
+}
+
+.top {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(29, 28, 28);
+    height: 4rem;
+    width: 100%;
+}
+
+.top header {
+    font-size: 1.4rem;
+    font-weight: bolder;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 1rem;
+    color: rgb(43, 42, 42);
+    min-height: 90vh;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.container h1 {
+    margin-bottom: 2rem;
+}
+
+.example-directions, .example-spaces {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 1.2rem;
+    font-weight: 200;
+    margin: 1rem;
+}
+
+.row, .column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+    width: 30rem;
+    height: 25rem;	
+}
+
+.example-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.example-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.example-item {
+    width: 5rem;
+    height: 5rem;
+    background-color: red;
+    margin: 0.5rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.space-around, .space-between, .space-evenly {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    padding: 1rem;
+}
+
+.col {
+    flex-direction: column;
+} 
+
+.space-around {
+    justify-content: space-around;
+}
+
+.space-evenly {
+    justify-content: space-evenly;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.start {
+    align-items: flex-start;
+}
+
+.center {
+    align-items: center;
+}
+
+.end {
+    align-items: flex-end;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(29, 28, 28);
+    align-items: center;
+    font-size: 0.9rem;
+    font-weight: 200;
+    height: 4rem;
+    width: 100%;
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.green {
+    background-color: green;
+}
+
+
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+@media (max-width: 600px) {
+    .example-directions, .example-spaces {
+        flex-direction: column;
+    }
+
+    .row, .column {
+        max-width: 100%;
+    }
+}
