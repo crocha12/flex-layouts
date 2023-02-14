@@ -1,8 +1,8 @@
-#<center>flex-layouts</center>
+# <center>Flex-layouts</center>
 
 ## Descrição
 
-Nessa seguinte aplicação é apresentado formas de alinhamento utilizando os flex-layouts, com divs e as propriedades do flex.
+Nessa aplicação apresentamos formas de alinhamento utilizando os flex-layouts, com divs e as propriedades do flex.
 
 ## Tecnologias
 
